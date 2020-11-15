@@ -1,0 +1,33 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'BiTui' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+  pod 'AFNetworking', '~> 3.2.1'
+  pod 'Masonry', '~> 1.1.0'
+  pod 'RTRootNavigationController', '~> 0.6.7'
+ pod 'CYLTabBarController', '~> 1.17.14'
+pod 'SDWebImage', '~> 4.4.2'
+pod 'MJExtension', '~> 3.0.15.1'
+pod 'ReactiveObjC', '~> 3.1.0'
+pod 'JKCategories', '~> 1.7'
+pod 'BlocksKit', '~> 2.2.5'
+pod 'MJRefresh', '~> 3.1.15.3'
+pod 'zhPopupController', '~> 1.0.3'
+pod 'IQKeyboardManager', '~> 6.1.1'
+pod 'DZNEmptyDataSet', '~> 1.8.1'
+
+  # Pods for BiTui
+
+  target 'BiTuiTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'BiTuiUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

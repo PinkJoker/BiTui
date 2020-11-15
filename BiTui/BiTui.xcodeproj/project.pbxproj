@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01D7534D3EFE6BBC62939DB5 /* libPods-BiTui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7DB8EB86D1E6157224A1E0 /* libPods-BiTui.a */; };
+		060F18BF89D8BA1BA88685B4 /* libPods-BiTuiUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9978F04430D773E3A24F10 /* libPods-BiTuiUITests.a */; };
+		373216A221071993006B8525 /* PKRequestLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 373216A121071993006B8525 /* PKRequestLink.m */; };
+		373216A5210719EB006B8525 /* PKRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 373216A4210719EB006B8525 /* PKRequestManager.m */; };
+		373216A821071AF3006B8525 /* PKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 373216A721071AF3006B8525 /* PKBaseViewController.m */; };
+		373216AB21071CB7006B8525 /* PKHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 373216AA21071CB7006B8525 /* PKHomeViewController.m */; };
+		373216AE21071D88006B8525 /* PKRequrementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 373216AD21071D88006B8525 /* PKRequrementViewController.m */; };
+		373216B121071DE1006B8525 /* PKMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 373216B021071DE1006B8525 /* PKMessageViewController.m */; };
+		373216B421071DEF006B8525 /* PKMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 373216B321071DEF006B8525 /* PKMineViewController.m */; };
+		373216BA2107209D006B8525 /* PKPlusButtonSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 373216B92107209D006B8525 /* PKPlusButtonSubclass.m */; };
+		373216BD210720B4006B8525 /* PKTabbarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 373216BC210720B4006B8525 /* PKTabbarControllerConfig.m */; };
+		377807BB21070FAB004EABBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 377807BA21070FAB004EABBD /* AppDelegate.m */; };
+		377807BE21070FAB004EABBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 377807BD21070FAB004EABBD /* ViewController.m */; };
+		377807C121070FAB004EABBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377807BF21070FAB004EABBD /* Main.storyboard */; };
+		377807C321070FAB004EABBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377807C221070FAB004EABBD /* Assets.xcassets */; };
+		377807C621070FAB004EABBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377807C421070FAB004EABBD /* LaunchScreen.storyboard */; };
+		377807C921070FAB004EABBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 377807C821070FAB004EABBD /* main.m */; };
+		377807D321070FAB004EABBD /* BiTuiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 377807D221070FAB004EABBD /* BiTuiTests.m */; };
+		377807DE21070FAB004EABBD /* BiTuiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 377807DD21070FAB004EABBD /* BiTuiUITests.m */; };
+		5166D030D3621F13D4F051F7 /* libPods-BiTuiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CDC93F5A594CBCCA9D5AD3 /* libPods-BiTuiTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		377807CF21070FAB004EABBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 377807AE21070FAB004EABBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 377807B521070FAB004EABBD;
+			remoteInfo = BiTui;
+		};
+		377807DA21070FAB004EABBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 377807AE21070FAB004EABBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 377807B521070FAB004EABBD;
+			remoteInfo = BiTui;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044D74A0644E23A1F910E0B6 /* Pods-BiTui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiTui.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BiTui/Pods-BiTui.debug.xcconfig"; sourceTree = "<group>"; };
+		0A7DB8EB86D1E6157224A1E0 /* libPods-BiTui.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BiTui.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23CDC93F5A594CBCCA9D5AD3 /* libPods-BiTuiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BiTuiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA5A4F07E1EC178DD09B3EC /* Pods-BiTuiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiTuiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BiTuiTests/Pods-BiTuiTests.release.xcconfig"; sourceTree = "<group>"; };
+		3732169D21071815006B8525 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3732169E2107182B006B8525 /* Interface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Interface.h; sourceTree = "<group>"; };
+		3732169F21071839006B8525 /* Defined.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Defined.h; sourceTree = "<group>"; };
+		373216A021071993006B8525 /* PKRequestLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKRequestLink.h; sourceTree = "<group>"; };
+		373216A121071993006B8525 /* PKRequestLink.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKRequestLink.m; sourceTree = "<group>"; };
+		373216A3210719EB006B8525 /* PKRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKRequestManager.h; sourceTree = "<group>"; };
+		373216A4210719EB006B8525 /* PKRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKRequestManager.m; sourceTree = "<group>"; };
+		373216A621071AF3006B8525 /* PKBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKBaseViewController.h; sourceTree = "<group>"; };
+		373216A721071AF3006B8525 /* PKBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKBaseViewController.m; sourceTree = "<group>"; };
+		373216A921071CB7006B8525 /* PKHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKHomeViewController.h; sourceTree = "<group>"; };
+		373216AA21071CB7006B8525 /* PKHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKHomeViewController.m; sourceTree = "<group>"; };
+		373216AC21071D88006B8525 /* PKRequrementViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKRequrementViewController.h; sourceTree = "<group>"; };
+		373216AD21071D88006B8525 /* PKRequrementViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKRequrementViewController.m; sourceTree = "<group>"; };
+		373216AF21071DE1006B8525 /* PKMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKMessageViewController.h; sourceTree = "<group>"; };
+		373216B021071DE1006B8525 /* PKMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKMessageViewController.m; sourceTree = "<group>"; };
+		373216B221071DEF006B8525 /* PKMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKMineViewController.h; sourceTree = "<group>"; };
+		373216B321071DEF006B8525 /* PKMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKMineViewController.m; sourceTree = "<group>"; };
+		373216B82107209D006B8525 /* PKPlusButtonSubclass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKPlusButtonSubclass.h; sourceTree = "<group>"; };
+		373216B92107209D006B8525 /* PKPlusButtonSubclass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKPlusButtonSubclass.m; sourceTree = "<group>"; };
+		373216BB210720B4006B8525 /* PKTabbarControllerConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKTabbarControllerConfig.h; sourceTree = "<group>"; };
+		373216BC210720B4006B8525 /* PKTabbarControllerConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKTabbarControllerConfig.m; sourceTree = "<group>"; };
+		377807B621070FAB004EABBD /* BiTui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiTui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		377807B921070FAB004EABBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		377807BA21070FAB004EABBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		377807BC21070FAB004EABBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		377807BD21070FAB004EABBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		377807C021070FAB004EABBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		377807C221070FAB004EABBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		377807C521070FAB004EABBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		377807C721070FAB004EABBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377807C821070FAB004EABBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		377807CE21070FAB004EABBD /* BiTuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiTuiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		377807D221070FAB004EABBD /* BiTuiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BiTuiTests.m; sourceTree = "<group>"; };
+		377807D421070FAB004EABBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377807D921070FAB004EABBD /* BiTuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiTuiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		377807DD21070FAB004EABBD /* BiTuiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BiTuiUITests.m; sourceTree = "<group>"; };
+		377807DF21070FAB004EABBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E9978F04430D773E3A24F10 /* libPods-BiTuiUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BiTuiUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4473ACE3A8EFF912D852D8C5 /* Pods-BiTuiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiTuiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BiTuiTests/Pods-BiTuiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7518FA0972300E60E511AC82 /* Pods-BiTuiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiTuiUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BiTuiUITests/Pods-BiTuiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		89E2404233F04B7FF605D008 /* Pods-BiTui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiTui.release.xcconfig"; path = "Pods/Target Support Files/Pods-BiTui/Pods-BiTui.release.xcconfig"; sourceTree = "<group>"; };
+		E323607798F8356A4D750E1B /* Pods-BiTuiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiTuiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BiTuiUITests/Pods-BiTuiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		377807B321070FAB004EABBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D7534D3EFE6BBC62939DB5 /* libPods-BiTui.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377807CB21070FAB004EABBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5166D030D3621F13D4F051F7 /* libPods-BiTuiTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377807D621070FAB004EABBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060F18BF89D8BA1BA88685B4 /* libPods-BiTuiUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		377807AD21070FAB004EABBD = {
+			isa = PBXGroup;
+			children = (
+				377807B821070FAB004EABBD /* BiTui */,
+				377807D121070FAB004EABBD /* BiTuiTests */,
+				377807DC21070FAB004EABBD /* BiTuiUITests */,
+				377807B721070FAB004EABBD /* Products */,
+				522337A093551035992E0F91 /* Pods */,
+				9D4F7E521DE8CE56AD538DFA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		377807B721070FAB004EABBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				377807B621070FAB004EABBD /* BiTui.app */,
+				377807CE21070FAB004EABBD /* BiTuiTests.xctest */,
+				377807D921070FAB004EABBD /* BiTuiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		377807B821070FAB004EABBD /* BiTui */ = {
+			isa = PBXGroup;
+			children = (
+				377807B921070FAB004EABBD /* AppDelegate.h */,
+				377807BA21070FAB004EABBD /* AppDelegate.m */,
+				3732169D21071815006B8525 /* PrefixHeader.pch */,
+				3732169E2107182B006B8525 /* Interface.h */,
+				3732169F21071839006B8525 /* Defined.h */,
+				373216BB210720B4006B8525 /* PKTabbarControllerConfig.h */,
+				373216BC210720B4006B8525 /* PKTabbarControllerConfig.m */,
+				373216B82107209D006B8525 /* PKPlusButtonSubclass.h */,
+				373216B92107209D006B8525 /* PKPlusButtonSubclass.m */,
+				373216A021071993006B8525 /* PKRequestLink.h */,
+				373216A121071993006B8525 /* PKRequestLink.m */,
+				373216A3210719EB006B8525 /* PKRequestManager.h */,
+				373216A4210719EB006B8525 /* PKRequestManager.m */,
+				373216A621071AF3006B8525 /* PKBaseViewController.h */,
+				373216A721071AF3006B8525 /* PKBaseViewController.m */,
+				373216A921071CB7006B8525 /* PKHomeViewController.h */,
+				373216AA21071CB7006B8525 /* PKHomeViewController.m */,
+				373216AC21071D88006B8525 /* PKRequrementViewController.h */,
+				373216AD21071D88006B8525 /* PKRequrementViewController.m */,
+				373216AF21071DE1006B8525 /* PKMessageViewController.h */,
+				373216B021071DE1006B8525 /* PKMessageViewController.m */,
+				373216B221071DEF006B8525 /* PKMineViewController.h */,
+				373216B321071DEF006B8525 /* PKMineViewController.m */,
+				377807BC21070FAB004EABBD /* ViewController.h */,
+				377807BD21070FAB004EABBD /* ViewController.m */,
+				377807BF21070FAB004EABBD /* Main.storyboard */,
+				377807C221070FAB004EABBD /* Assets.xcassets */,
+				377807C421070FAB004EABBD /* LaunchScreen.storyboard */,
+				377807C721070FAB004EABBD /* Info.plist */,
+				377807C821070FAB004EABBD /* main.m */,
+			);
+			path = BiTui;
+			sourceTree = "<group>";
+		};
+		377807D121070FAB004EABBD /* BiTuiTests */ = {
+			isa = PBXGroup;
+			children = (
+				377807D221070FAB004EABBD /* BiTuiTests.m */,
+				377807D421070FAB004EABBD /* Info.plist */,
+			);
+			path = BiTuiTests;
+			sourceTree = "<group>";
+		};
+		377807DC21070FAB004EABBD /* BiTuiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				377807DD21070FAB004EABBD /* BiTuiUITests.m */,
+				377807DF21070FAB004EABBD /* Info.plist */,
+			);
+			path = BiTuiUITests;
+			sourceTree = "<group>";
+		};
+		522337A093551035992E0F91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				044D74A0644E23A1F910E0B6 /* Pods-BiTui.debug.xcconfig */,
+				89E2404233F04B7FF605D008 /* Pods-BiTui.release.xcconfig */,
+				4473ACE3A8EFF912D852D8C5 /* Pods-BiTuiTests.debug.xcconfig */,
+				2CA5A4F07E1EC178DD09B3EC /* Pods-BiTuiTests.release.xcconfig */,
+				E323607798F8356A4D750E1B /* Pods-BiTuiUITests.debug.xcconfig */,
+				7518FA0972300E60E511AC82 /* Pods-BiTuiUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D4F7E521DE8CE56AD538DFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A7DB8EB86D1E6157224A1E0 /* libPods-BiTui.a */,
+				23CDC93F5A594CBCCA9D5AD3 /* libPods-BiTuiTests.a */,
+				3E9978F04430D773E3A24F10 /* libPods-BiTuiUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		377807B521070FAB004EABBD /* BiTui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377807E221070FAB004EABBD /* Build configuration list for PBXNativeTarget "BiTui" */;
+			buildPhases = (
+				0511BE9F7AF266535E447FCD /* [CP] Check Pods Manifest.lock */,
+				377807B221070FAB004EABBD /* Sources */,
+				377807B321070FAB004EABBD /* Frameworks */,
+				377807B421070FAB004EABBD /* Resources */,
+				F6986479B04E69BCE475E836 /* [CP] Embed Pods Frameworks */,
+				9A3C92880B636627B0D36200 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BiTui;
+			productName = BiTui;
+			productReference = 377807B621070FAB004EABBD /* BiTui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		377807CD21070FAB004EABBD /* BiTuiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377807E521070FAB004EABBD /* Build configuration list for PBXNativeTarget "BiTuiTests" */;
+			buildPhases = (
+				9625CFCC99004CABABF8F785 /* [CP] Check Pods Manifest.lock */,
+				377807CA21070FAB004EABBD /* Sources */,
+				377807CB21070FAB004EABBD /* Frameworks */,
+				377807CC21070FAB004EABBD /* Resources */,
+				FA6C388F7BE2299CF6C2C8CD /* [CP] Embed Pods Frameworks */,
+				5AC3780162E1E703C9462D7F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				377807D021070FAB004EABBD /* PBXTargetDependency */,
+			);
+			name = BiTuiTests;
+			productName = BiTuiTests;
+			productReference = 377807CE21070FAB004EABBD /* BiTuiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		377807D821070FAB004EABBD /* BiTuiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377807E821070FAB004EABBD /* Build configuration list for PBXNativeTarget "BiTuiUITests" */;
+			buildPhases = (
+				75F9EE8B100BAF2B5D593872 /* [CP] Check Pods Manifest.lock */,
+				377807D521070FAB004EABBD /* Sources */,
+				377807D621070FAB004EABBD /* Frameworks */,
+				377807D721070FAB004EABBD /* Resources */,
+				A376E9012F735F8EE90947E0 /* [CP] Embed Pods Frameworks */,
+				7E255F83103EB9C1AD1EDB91 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				377807DB21070FAB004EABBD /* PBXTargetDependency */,
+			);
+			name = BiTuiUITests;
+			productName = BiTuiUITests;
+			productReference = 377807D921070FAB004EABBD /* BiTuiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		377807AE21070FAB004EABBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = pk;
+				TargetAttributes = {
+					377807B521070FAB004EABBD = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					377807CD21070FAB004EABBD = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 377807B521070FAB004EABBD;
+					};
+					377807D821070FAB004EABBD = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 377807B521070FAB004EABBD;
+					};
+				};
+			};
+			buildConfigurationList = 377807B121070FAB004EABBD /* Build configuration list for PBXProject "BiTui" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 377807AD21070FAB004EABBD;
+			productRefGroup = 377807B721070FAB004EABBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				377807B521070FAB004EABBD /* BiTui */,
+				377807CD21070FAB004EABBD /* BiTuiTests */,
+				377807D821070FAB004EABBD /* BiTuiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		377807B421070FAB004EABBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377807C621070FAB004EABBD /* LaunchScreen.storyboard in Resources */,
+				377807C321070FAB004EABBD /* Assets.xcassets in Resources */,
+				377807C121070FAB004EABBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377807CC21070FAB004EABBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377807D721070FAB004EABBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0511BE9F7AF266535E447FCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BiTui-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AC3780162E1E703C9462D7F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiTuiTests/Pods-BiTuiTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75F9EE8B100BAF2B5D593872 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BiTuiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E255F83103EB9C1AD1EDB91 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiTuiUITests/Pods-BiTuiUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9625CFCC99004CABABF8F785 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BiTuiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A3C92880B636627B0D36200 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiTui/Pods-BiTui-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A376E9012F735F8EE90947E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiTuiUITests/Pods-BiTuiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6986479B04E69BCE475E836 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiTui/Pods-BiTui-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA6C388F7BE2299CF6C2C8CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiTuiTests/Pods-BiTuiTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		377807B221070FAB004EABBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373216B421071DEF006B8525 /* PKMineViewController.m in Sources */,
+				373216A5210719EB006B8525 /* PKRequestManager.m in Sources */,
+				373216AE21071D88006B8525 /* PKRequrementViewController.m in Sources */,
+				373216AB21071CB7006B8525 /* PKHomeViewController.m in Sources */,
+				373216A221071993006B8525 /* PKRequestLink.m in Sources */,
+				377807BE21070FAB004EABBD /* ViewController.m in Sources */,
+				373216BD210720B4006B8525 /* PKTabbarControllerConfig.m in Sources */,
+				373216B121071DE1006B8525 /* PKMessageViewController.m in Sources */,
+				373216BA2107209D006B8525 /* PKPlusButtonSubclass.m in Sources */,
+				377807C921070FAB004EABBD /* main.m in Sources */,
+				373216A821071AF3006B8525 /* PKBaseViewController.m in Sources */,
+				377807BB21070FAB004EABBD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377807CA21070FAB004EABBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377807D321070FAB004EABBD /* BiTuiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377807D521070FAB004EABBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377807DE21070FAB004EABBD /* BiTuiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		377807D021070FAB004EABBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 377807B521070FAB004EABBD /* BiTui */;
+			targetProxy = 377807CF21070FAB004EABBD /* PBXContainerItemProxy */;
+		};
+		377807DB21070FAB004EABBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 377807B521070FAB004EABBD /* BiTui */;
+			targetProxy = 377807DA21070FAB004EABBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		377807BF21070FAB004EABBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				377807C021070FAB004EABBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		377807C421070FAB004EABBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				377807C521070FAB004EABBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		377807E021070FAB004EABBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		377807E121070FAB004EABBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		377807E321070FAB004EABBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 044D74A0644E23A1F910E0B6 /* Pods-BiTui.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4668S66G32;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BiTui/PrefixHeader.pch";
+				INFOPLIST_FILE = BiTui/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pinkjoker.BiTui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		377807E421070FAB004EABBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E2404233F04B7FF605D008 /* Pods-BiTui.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4668S66G32;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BiTui/PrefixHeader.pch";
+				INFOPLIST_FILE = BiTui/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pinkjoker.BiTui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		377807E621070FAB004EABBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4473ACE3A8EFF912D852D8C5 /* Pods-BiTuiTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4668S66G32;
+				INFOPLIST_FILE = BiTuiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pinkjoker.BiTuiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BiTui.app/BiTui";
+			};
+			name = Debug;
+		};
+		377807E721070FAB004EABBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CA5A4F07E1EC178DD09B3EC /* Pods-BiTuiTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4668S66G32;
+				INFOPLIST_FILE = BiTuiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pinkjoker.BiTuiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BiTui.app/BiTui";
+			};
+			name = Release;
+		};
+		377807E921070FAB004EABBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E323607798F8356A4D750E1B /* Pods-BiTuiUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4668S66G32;
+				INFOPLIST_FILE = BiTuiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pinkjoker.BiTuiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BiTui;
+			};
+			name = Debug;
+		};
+		377807EA21070FAB004EABBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7518FA0972300E60E511AC82 /* Pods-BiTuiUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4668S66G32;
+				INFOPLIST_FILE = BiTuiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pinkjoker.BiTuiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BiTui;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		377807B121070FAB004EABBD /* Build configuration list for PBXProject "BiTui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377807E021070FAB004EABBD /* Debug */,
+				377807E121070FAB004EABBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		377807E221070FAB004EABBD /* Build configuration list for PBXNativeTarget "BiTui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377807E321070FAB004EABBD /* Debug */,
+				377807E421070FAB004EABBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		377807E521070FAB004EABBD /* Build configuration list for PBXNativeTarget "BiTuiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377807E621070FAB004EABBD /* Debug */,
+				377807E721070FAB004EABBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		377807E821070FAB004EABBD /* Build configuration list for PBXNativeTarget "BiTuiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377807E921070FAB004EABBD /* Debug */,
+				377807EA21070FAB004EABBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 377807AE21070FAB004EABBD /* Project object */;
+}
